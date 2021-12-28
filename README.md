@@ -10,6 +10,6 @@
 
 <div align="center">
 
-write project description...
+A scripts template for stage cli deploy command
 
 </div>

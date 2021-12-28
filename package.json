@@ -1,7 +1,7 @@
 {
   "name": "@fujia/deploy-scripts-template",
   "version": "0.1.0",
-  "description": "",
+  "description": "A scripts template for stage cli deploy command",
   "keywords": [
     "template",
     "stage"
@@ -10,6 +10,9 @@
     "prepare": "husky install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "template"
+  ],
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
@@ -22,6 +25,10 @@
     "name": "fujia",
     "url": "https://github.com/fushenguang",
     "email": "fujia.site@outlook.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fujia-cli/deploy-scripts-template"
   },
   "license": "MIT",
   "devDependencies": {
