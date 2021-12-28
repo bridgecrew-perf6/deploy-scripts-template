@@ -1,0 +1,32 @@
+{
+  "name": "@fujia/deploy-scripts-template",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [
+    "template",
+    "stage"
+  ],
+  "scripts": {
+    "prepare": "husky install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": {
+    "name": "fujia",
+    "url": "https://github.com/fushenguang",
+    "email": "fujia.site@outlook.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "husky": "^7.0.4"
+  }
+}
